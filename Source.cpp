@@ -192,7 +192,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 	switch (msg)
 	{
 	case WM_CREATE:
-		hEdit1 = CreateWindow(TEXT("EDIT"), TEXT("“Œ‹“sç‘ã“c‹æˆê’š–Ú‚P|‚P"), WS_VISIBLE | WS_CHILD | WS_BORDER, 10, 10, 512, 32, hWnd, 0, ((LPCREATESTRUCT)lParam)->hInstance, 0);
+		hEdit1 = CreateWindow(TEXT("EDIT"), TEXT("“Œ‹“sç‘ã“c‹æˆêƒc‹´ˆê’š–Ú1”Ô1†"), WS_VISIBLE | WS_CHILD | WS_BORDER, 10, 10, 512, 32, hWnd, 0, ((LPCREATESTRUCT)lParam)->hInstance, 0);
 		CreateWindow(TEXT("BUTTON"), TEXT("æ“¾"), WS_VISIBLE | WS_CHILD, 10, 50, 512, 32, hWnd, (HMENU)100, ((LPCREATESTRUCT)lParam)->hInstance, 0);
 		hEdit2 = CreateWindow(TEXT("EDIT"), 0, WS_VISIBLE | WS_CHILD | WS_BORDER | WS_VSCROLL | ES_MULTILINE | ES_AUTOVSCROLL, 10, 90, 512, 512, hWnd, 0, ((LPCREATESTRUCT)lParam)->hInstance, 0);
 		break;
@@ -242,7 +242,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 	RegisterClass(&wndclass);
 	HWND hWnd = CreateWindow(
 		szClassName,
-		TEXT("ZŠ‚©‚çÅŠñ‚è‰w‚ğŒŸõ"),
+		TEXT("ZŠ‚©‚çÅŠñ‚è‰w‚ğŒŸõiYahoo! Web API ‚Æ express.heartrails.com ‚ğg—pj"),
 		WS_OVERLAPPEDWINDOW,
 		CW_USEDEFAULT,
 		0,
